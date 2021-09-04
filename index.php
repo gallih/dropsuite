@@ -48,37 +48,3 @@ function getDirContents($dir, &$results = array())
 
     return $results;
 }
-
-
-
-//$i = 0;
-//$file = array();
-//while ($i < count($directory_array)) {
-//    $context = '';
-//    if (is_dir($path . '/' . $directory_array[$i])) {
-//        $child_directory = rootDirectory($directory_array[$i]);
-//        while ($j = 0 < count($child_directory)) {
-//            if (is_dir($path . '/' . $directory_array[$i])) {
-//
-//            }
-//        }
-//    } else {
-//        $context = file_get_contents($path . '/' . $directory_array[$i]);
-//        array_push($file, $directory_array[$i]);
-////        echo $context . '<br>';
-//    }
-//    $i++;
-//}
-//
-////var_dump($file);
-//
-//function rootDirectory($directory = '')
-//{
-//    $path = 'DropsuiteTest' . '/' . $directory;
-//    $files = array_diff(scandir($path), array('.', '..', '.DS_Store'));
-//    $directory_array = array();
-//    foreach ($files as $dir) {
-//        array_push($directory_array, $dir);
-//    }
-//    return $directory_array;
-//}
